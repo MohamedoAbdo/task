@@ -77,32 +77,39 @@ class _homeState extends State<home> {
                  ),
 
 
-                  InkWell(
-                   onTap: () async {
-                     if (_formKey.currentState!.validate()) {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Giza()),
-                      );
-                        }
-                         ;
-                       },
-                        child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                        width: 400,
-                       height: 50,
-                       decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(40),
+                   Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'to know more ?',
+                      style: TextStyle(
+                        color: Color(0xFF1F2223),
+                        fontSize: 12,
+                        fontFamily: 'Poppins',
+                        fontWeight: FontWeight.w400,
+                        height: 1.60,
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Giza()),
+                        );
+                      },
+                      child: Text(
+                        "Press here",
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontSize: 12,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w700,
+                          height: 1.50,
                         ),
-                       child: Center(
-                        child: Text("next",
-                       style:
-                        TextStyle(color: Colors.white, fontSize: 30))),
-                       ),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
               //الاسكندريه
   
               Container(
@@ -147,32 +154,39 @@ class _homeState extends State<home> {
                  ),
 
 
-                  InkWell(
-                   onTap: () async {
-                     if (_formKey.currentState!.validate()) {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Alexandria()),
-                      );
-                        }
-                         ;
-                       },
-                        child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                        width: 400,
-                       height: 50,
-                       decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(40),
+                   Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'to know more ?',
+                      style: TextStyle(
+                        color: Color(0xFF1F2223),
+                        fontSize: 12,
+                        fontFamily: 'Poppins',
+                        fontWeight: FontWeight.w400,
+                        height: 1.60,
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Alexandria()),
+                        );
+                      },
+                      child: Text(
+                        "Press here",
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontSize: 12,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w700,
+                          height: 1.50,
                         ),
-                       child: Center(
-                        child: Text("next",
-                       style:
-                        TextStyle(color: Colors.white, fontSize: 30))),
-                       ),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
 
               //اسون
 
@@ -216,32 +230,44 @@ class _homeState extends State<home> {
                  ),
 
 
-                  InkWell(
-                   onTap: () async {
-                     if (_formKey.currentState!.validate()) {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Aswan()),
-                      );
-                        }
-                         ;
-                       },
-                        child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                        width: 400,
-                       height: 50,
-                       decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(40),
+                   Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'to know more ?',
+                      style: TextStyle(
+                        color: Color(0xFF1F2223),
+                        fontSize: 12,
+                        fontFamily: 'Poppins',
+                        fontWeight: FontWeight.w400,
+                        height: 1.60,
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Aswan()),
+                        );
+                      },
+                      child: Text(
+                        "Press here",
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontSize: 12,
+                          fontFamily: 'Poppins',
+                          fontWeight: FontWeight.w700,
+                          height: 1.50,
                         ),
-                       child: Center(
-                        child: Text("next",
-                       style:
-                        TextStyle(color: Colors.white, fontSize: 30))),
-                       ),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
+
+                SizedBox(
+                height: 40,
+                 ),
+
 
 
 
